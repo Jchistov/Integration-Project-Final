@@ -1,0 +1,379 @@
+# Josh Chistov
+# Out-Smart the Computer Quiz
+# Try to beat the computer in these
+# challenging,but yet refreshing brain-teasers.
+# W3schools, Think Python book, Course Website.
+
+dict = {
+    "Type": "Quiz",
+    "Class": "Python",
+    "year": 2022
+}
+print(dict)
+
+print("Hello there", "how are you?", sep="---")
+x = "Welcome to the Out"
+y = " Smart the Computer Quiz"
+x += y
+print(x)
+# The shortcut operator += adds and combines the two strings together
+
+answer = input("To begin, please enter your name:")
+answer = input("Please verify if you are ready to begin (yes/no):")
+
+response = "yes"
+while True:
+    answer = input("Please verify if you are ready to begin")
+    if answer == response:
+        print("Alright")
+        break
+    else:
+        print("Please verify if you are ready to begin")
+
+a = "Good" + " Luck"
+print(a)
+# The + operator combines string1 and string2 into one
+
+if answer.lower() == "yes":
+    answer = input("Question 1: What is 2+2?")
+    if answer.lower() == "4":
+
+        print("Correct")
+        print("Alright,that was a little too easy")
+    else:
+        print("Incorrect")
+# The + operator adds the two numbers.
+
+print("Question Number")
+txt = "Lets do this."
+x = txt.index("t")
+print(x)
+
+answer = input("What is 10-5?")
+if answer.lower() == '5':
+
+    print("Correct")
+    print("Wow")
+    print("You are really good at this")
+else:
+    print("Incorrect")
+# index states when the selected variable is stated
+# The - operator subtracts the two numbers.
+
+print("Question Number")
+This = (2, 5, 7, 8, 9, 5, 4, 6, 8, 1)
+x = This.index(8)
+print(x)
+answer = input("What is 8*6/8**1")
+if answer.lower() == "6":
+
+    print("Correct")
+    print("You are really starting to make me mad")
+    print("I'm sure I can get you with this one")
+    print("This ones gotta work")
+else:
+    print("Incorrect")
+# The * operator multiplies the numbers.
+# The / operator divides the numbers.
+# The ** operator raises the left variable to the power of the right.
+
+answer = input("Question 4: What is 20%3//5")
+if answer.lower() == "0":
+
+    print("Correct")
+    print("You have to be cheating at this rate")
+    print("Yeah, yeah... that's it, your cheating")
+    print("Well anyways this one will be tough, you wont get this one right")
+    print("I'm sure of it")
+else:
+    print("Incorrect")
+# The % operator acts as the modulus operator.
+# The // operator turns the solution into a whole number.
+
+answer = input("Question 5: What is 3**3+9/8*3")
+if answer.lower() == "30.375":
+
+    print("Correct")
+    print("Oh uh... I mean incorrect")
+    print("Alright fine, you got me")
+    print("That was correct. You're pretty good at this.")
+else:
+    print("Incorrect")
+txt = "You must be some kind of \"genius\" if you made it this far"
+print(txt)
+print("Lets see how you do on the second part of this program")
+print("Now loading phase two of the quiz")
+i = "Loading " * 5
+print(i)
+# The * operator prints and repeats the string for as many times as the integer
+print("Complete")
+print("Welcome to phase two", end='')
+print(" of the quiz")
+# The end= argument continues the string to the next line for the output
+Y = "It is important for the user to know what's right and what's wrong"
+print(Y)
+a = """That is why you will be given questions, and it's your job to
+determine whether they are true or false"""
+print(a)
+answer = input("Please verify if you are ready to begin (yes/no):")
+response = "yes"
+while True:
+    answer = input("Please verify if you are ready to begin")
+    if answer == response:
+        print("Alright")
+        break
+    else:
+        print("Please verify if you are ready to begin")
+
+for z in "Good Luck":
+    print(z)
+# The for loop turns the selected value into a sequence
+print("Before you begin, here are a few examples")
+print("x = 12")
+print("x>6 or x<14")
+x = 12
+print(x > 6 or x < 14)
+# The or bool operator determines whether the equation is true
+print("x=7")
+print("x==4*3")
+x = 7
+print(not (x == 4 * 3))
+# The not bool operator determines whether the equation is true
+print("You will now answer a couple of questions by yourself")
+answer = input("Do you understand?(yes/no):")
+if answer.lower() == "yes":
+    print("Glad you understand, it's as easy as counting to 5")
+else:
+    print("""What do you mean you do not understand? If I can count to 5,
+you should be able to understand my question""")
+for d in range(1, 6):
+    print(d)
+# The in and range iterative presents the integers between 1-6
+print("""Now it's time to try some out for yourself. Please verify
+the problem below""")
+# Triple quotation marks allows the user to write on multiple lines
+print("15+7!=23")
+answer = input("true or false")
+# The != operator determines whether the integer not equal to
+if answer.lower() == "true":
+
+    print("Correct, lets see how you do on the next one")
+else:
+    print("Incorrect, it seems like you need more practice")
+
+print("Now that you understand the concept, let's test your knowledge out")
+print("3**3>=16")
+# The >= operator determine whether the integer is greater than or equal to
+answer = input("true or false")
+if answer.lower() == "true":
+
+    print("Correct, you seem to know your way")
+else:
+    print("Incorrect, it seems like you need more practice")
+
+print("Lets try something a little different")
+activities = ["soccer", "football", "reading"]
+for e in activities:
+    print(e)
+# The for loop presents the list
+answer = input("Which of the following is the odd one out?")
+if answer.lower() == "reading":
+    print("Correct, I see you truly know your differences")
+else:
+    print("Incorrect, try reading the question more careful next time")
+
+
+def my_function():
+    """Defines the function
+
+    """
+    print("Don't worry, you are almost done")
+
+
+my_function()
+# The def keyword is used to define the function
+# The parameter is located inside the parentheses
+x = 1
+while x < 4:
+    print(x)
+    x += 1
+print("Next Question!")
+# The while loop executes the statement only if the condition is true
+
+print("If a=40 and b=10, is the following statement true?")
+answer = input("a<41 and b>9")
+if answer.lower() == "true":
+    print("Well")
+else:
+    print("Incorrect, try reviewing a little more")
+print("If you put down this answer:")
+a = 40
+b = 10
+if (a < 41) and (b > 9):
+    print("True, you are correct")
+else:
+    print("False, you are incorrect")
+# The and bool operator prints the string
+# depending on the result of the statement
+a = 10
+b = 4
+if a > b:
+    print("Next question!")
+elif a == b:
+    print("Next part!")
+
+languages = ["Java", "C++", "Python"]
+languages.insert(1, "Html")
+print(languages)
+
+answer = input("What language is taught in this course?")
+if answer.lower() == "Java":
+    print("Have you been paying any attention?")
+elif answer.lower() == "Python":
+    print("Correct,I'm glad you have been paying attention")
+else:
+    print("Have you been paying any attention?")
+
+print("Are you familiar with bitwise operators?")
+answer = input("yes/no")
+if answer.lower() == "yes":
+    print("Ok good, here's an example though just in case")
+else:
+    print("That's ok, here's an example to help you out")
+print("a=7")
+print("b=9")
+print("a&b")
+a = 7
+b = 9
+print(a & b)
+
+print("Does it make sense?")
+answer = input("yes/no")
+if answer.lower() == "yes":
+    print("Ok good, here's another example just in case")
+else:
+    print("That's ok, here's another example to help you out")
+
+print("a=7")
+print("b=9")
+print("a|b")
+a = 7
+b = 9
+print(a | b)
+
+print("Bitwise operators  can be used in many different ways")
+print("a=7")
+print("b=9")
+print("a^b")
+a = 7
+b = 9
+print(a ^ b)
+
+print("""As long as you are familiar with binary code,
+you have nothing to worry about""")
+print("Lets try something different")
+print("a=7")
+print("~a")
+a = 7
+print(~a)
+
+print("a=7")
+print("a<<1")
+print(a << 1)
+print("This time lets use a different variable")
+
+print("b=9")
+print("b>>1")
+print(b >> 1)
+
+print("""Now that you kind of have an understanding of it,
+lets see how you do on the following questions""")
+
+print("What position is 56 in?")
+answer = input("numbers=[1,6,2,97,56,10]")
+if answer.lower() == "4":
+    print("Correct, the answer is")
+else:
+    print("Im sorry but the correct answer is")
+
+numbers = [1, 6, 2, 97, 56, 10]
+x = numbers.index(56)
+print(x)
+
+b = "Next Question"
+print(b[:13])
+
+print("Florida, New York, Greenland")
+answer = input("How many places are listed here")
+response = "3"
+while True:
+    answer = input("How many places are listed here")
+    if answer == response:
+        print("Good")
+        break
+    else:
+        print("Really? Count again.")
+
+print("Florida,New York,Greenland")
+answer = input("How many are U.S. states")
+if answer.lower() == "2":
+    print("Good, the answer is")
+else:
+    print("Im sorry but the correct answer is")
+
+list = ["Florida", "New York"]
+x = len(list)
+print(x)
+
+list = ["Python", "C++", "Java", "Html"]
+print(list)
+
+print("These are all common python languages")
+print("They're all different in their own ways")
+
+print("a=1,7,3")
+print("b=4,7,1")
+print("c=1,2,3")
+answer = input("which list is in the correct order?")
+if answer.lower() == "c":
+    print("Good, the answer is")
+else:
+    print("Im sorry but the correct answer is")
+c = (1, 3, 2)
+x = sorted(c)
+print(x)
+
+answer = input("What is the first letter of the language you are using?")
+if answer.lower() == "p":
+    print("Correct, the answer is")
+else:
+    print("Im sorry but the correct answer is")
+a = ("a", "h", "p",)
+x = slice(2, 3, 4)
+print(a[x])
+
+num = {
+    "2": "Quiz",
+    "4": "Python",
+    "7": 2022
+}
+x = num.keys()
+print(x)
+
+answer = input("Which of the following is an odd number?")
+if answer.lower() == "7":
+    print("Correct")
+else:
+    print("Incorrect")
+
+print("""Thank you for completing my quiz;
+      I really appreciated your time as well as messing
+      with you a couple times, feel free to play again next time""")
+
+intro = {
+    "creator": "Josh Chistov",
+    "who": "student",
+    "year": 2022
+}
+x = intro.items()
+print(x)
