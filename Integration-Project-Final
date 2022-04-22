@@ -48,7 +48,8 @@ print("Question Number")
 txt = "Lets do this."
 x = txt.index("t")
 print(x)
-
+# The index() method returns the position of the first occurrence of the
+# selected variable
 answer = input("What is 10-5?")
 if answer.lower() == '5':
 
@@ -64,6 +65,7 @@ print("Question Number")
 This = (2, 5, 7, 8, 9, 5, 4, 6, 8, 1)
 x = This.index(8)
 print(x)
+# Returns how many times the integer occurs on the list
 answer = input("What is 8*6/8**1")
 if answer.lower() == "6":
 
@@ -101,6 +103,7 @@ else:
     print("Incorrect")
 txt = "You must be some kind of \"genius\" if you made it this far"
 print(txt)
+# The \ puts the selected string in quotes
 print("Lets see how you do on the second part of this program")
 print("Now loading phase two of the quiz")
 i = "Loading " * 5
@@ -246,6 +249,7 @@ print("a&b")
 a = 7
 b = 9
 print(a & b)
+# Bitwise AND, returns one if both integers are one
 
 print("Does it make sense?")
 answer = input("yes/no")
@@ -260,7 +264,7 @@ print("a|b")
 a = 7
 b = 9
 print(a | b)
-
+# Bitwise OR, returns one if either integers are one
 print("Bitwise operators  can be used in many different ways")
 print("a=7")
 print("b=9")
@@ -268,7 +272,7 @@ print("a^b")
 a = 7
 b = 9
 print(a ^ b)
-
+# Bitwise XOR, returns if one of the integers is one
 print("""As long as you are familiar with binary code,
 you have nothing to worry about""")
 print("Lets try something different")
@@ -276,16 +280,16 @@ print("a=7")
 print("~a")
 a = 7
 print(~a)
-
+# Bitwise NOT, inverts the integer
 print("a=7")
 print("a<<1")
 print(a << 1)
 print("This time lets use a different variable")
-
+# Bitwise left, brings the zeros to the left by shifting
 print("b=9")
 print("b>>1")
 print(b >> 1)
-
+# Bitwise right, brings the zeros to the right by shifting
 print("""Now that you kind of have an understanding of it,
 lets see how you do on the following questions""")
 
@@ -299,10 +303,10 @@ else:
 numbers = [1, 6, 2, 97, 56, 10]
 x = numbers.index(56)
 print(x)
-
+# prints the position in which the selected integer is in
 b = "Next Question"
 print(b[:13])
-
+# prints the statement that is within the selected range
 print("Florida, New York, Greenland")
 answer = input("How many places are listed here")
 response = "3"
@@ -324,10 +328,10 @@ else:
 list = ["Florida", "New York"]
 x = len(list)
 print(x)
-
+# prints how many strings are listed
 list = ["Python", "C++", "Java", "Html"]
 print(list)
-
+# prints the strings listed in order
 print("These are all common python languages")
 print("They're all different in their own ways")
 
@@ -342,7 +346,7 @@ else:
 c = (1, 3, 2)
 x = sorted(c)
 print(x)
-
+# prints the integers in numerical order
 answer = input("What is the first letter of the language you are using?")
 if answer.lower() == "p":
     print("Correct, the answer is")
@@ -351,7 +355,7 @@ else:
 a = ("a", "h", "p",)
 x = slice(2, 3, 4)
 print(a[x])
-
+# prints the string based on its ordered spot
 num = {
     "2": "Quiz",
     "4": "Python",
@@ -359,7 +363,7 @@ num = {
 }
 x = num.keys()
 print(x)
-
+# The key() method returns the object
 answer = input("Which of the following is an odd number?")
 if answer.lower() == "7":
     print("Correct")
@@ -377,3 +381,4 @@ intro = {
 }
 x = intro.items()
 print(x)
+# The items() method returns the object
