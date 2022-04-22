@@ -370,7 +370,7 @@ if answer.lower() == "7":
 else:
     print("Incorrect")
 
-print("""Thank you for completing my quiz;
+answer = input("""Thank you for completing my quiz;
       I really appreciated your time as well as messing
       with you a couple times, feel free to play again next time""")
 
